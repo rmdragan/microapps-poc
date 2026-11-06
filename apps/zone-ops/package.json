@@ -1,0 +1,28 @@
+{
+  "name": "zone-ops",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "next build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@micro/api": "workspace:*",
+    "@micro/auth": "workspace:*",
+    "@micro/config": "workspace:*",
+    "@micro/routing": "workspace:*",
+    "@micro/ui": "workspace:*",
+    "lucide-react": "catalog:",
+    "next": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "catalog:",
+    "@types/node": "24.19.2",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:"
+  }
+}

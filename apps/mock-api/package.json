@@ -1,0 +1,19 @@
+{
+  "name": "mock-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@hono/node-server": "catalog:",
+    "@micro/api": "workspace:*",
+    "@micro/auth": "workspace:*",
+    "hono": "catalog:"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "tsx": "4.23.15",
+    "typescript": "catalog:"
+  }
+}

@@ -1,0 +1,16 @@
+node_modules
+.next
+.turbo
+dist
+.run
+*.log
+.DS_Store
+.env
+.env.local
+.env.*.local
+test-results
+playwright-report
+blob-report
+storybook-static
+
+coverage

@@ -1,0 +1,37 @@
+{
+  "name": "microapps",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.18.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "tsx tools/app.ts dev",
+    "start": "tsx tools/app.ts start",
+    "stop": "tsx tools/app.ts stop",
+    "ship": "tsx tools/app.ts ship",
+    "status": "tsx tools/app.ts status",
+    "build": "turbo run build",
+    "typecheck": "turbo run typecheck && tsc -p tsconfig.tools.json",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "e2e": "playwright test",
+    "gen:ingress": "tsx tools/gen-ingress.ts",
+    "storybook": "pnpm --filter @micro/ui storybook"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@micro/routing": "workspace:*",
+    "@playwright/test": "1.65.0",
+    "@types/node": "24.19.2",
+    "eslint": "10.14.0",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "globals": "17.14.0",
+    "tsx": "4.23.15",
+    "turbo": "2.11.10",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.72.1",
+    "vitest": "5.1.0"
+  }
+}

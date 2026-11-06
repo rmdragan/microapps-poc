@@ -1,0 +1,21 @@
+{
+  "name": "@micro/config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./next": "./src/next.ts",
+    "./tsconfig.next.json": "./tsconfig.next.json"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@micro/routing": "workspace:*"
+  },
+  "devDependencies": {
+    "next": "catalog:",
+    "typescript": "catalog:"
+  }
+}
