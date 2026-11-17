@@ -147,6 +147,7 @@ docs/               Architecture, decisions, onboarding, demo notes
 ## Read next
 
 - [`docs/architecture.md`](docs/architecture.md): how a request flows, and why.
+- [`docs/design-questions.md`](docs/design-questions.md): the discovery questions, options, and answers that drove the design.
 - [`docs/decisions.md`](docs/decisions.md): the tradeoffs, including the ones we accepted.
 - [`docs/onboarding-a-zone.md`](docs/onboarding-a-zone.md): adding the fifth zone.
 - [`docs/ci.md`](docs/ci.md): the per-app pipeline shape.
